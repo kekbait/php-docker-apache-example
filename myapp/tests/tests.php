@@ -8,6 +8,6 @@ final class EmailTest extends TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress()
     {
-        $this->assertEquals(1,1);
+        $this->assertEquals(1,0);
     }
 }
