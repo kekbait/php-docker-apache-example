@@ -1,0 +1,6 @@
+{
+    "name": "root/html",
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
