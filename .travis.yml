@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-- docker build -t php-docker-apache-example .
+  - docker build -t php-docker-apache-example .
 
 script:
-- docker run --name le_php php-docker-apache-example ./vendor/bin/phpunit tests/tests.php 
+  - docker run --name le_php php-docker-apache-example ./vendor/bin/phpunit tests/tests.php 
