@@ -1,6 +1,11 @@
 ## Example of a PHP web application using Docker
 
 
+docker run -p 8080:80 -v $(pwd)/myapp:/var/www/html --name le_php php-docker-apache-example ./vendor/bin/phpunit tests/tests.php 
+docker build -t php-docker-apache-example .
+
+
+
 #### How does it work?
 
 ```bash
