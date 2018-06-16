@@ -9,4 +9,4 @@ before_install:
   - docker build -t php-docker-apache-example .
 
 script:
-  - docker ps -a
+  - docker run php-docker-apache-example ./vendor/bin/phpunit tests/tests.php 
